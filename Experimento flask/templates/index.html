@@ -1,0 +1,17 @@
+{% extends 'modelo.html' %}
+{%  block conteudo %}
+<div id="index">
+    <h1>Boas vindas {{ usuario }}!</h1>
+    {% if not conteudo %}
+        <p>Assine agora a sua conta PREMIUM por apenas R$9,99 por mês!</p>
+    {% else %}
+        <p>Conteúdo Premium Plus:</p>
+    {% for link in conteudo %}
+        <li>
+            <a href="{{ link.link }}" target = "_blank"> {{ link.titulo }}</a>
+        </li>
+    {% endfor %}
+    {% endif %}
+</div>
+
+{% endblock %}

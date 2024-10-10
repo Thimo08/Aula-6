@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    font-family: Verdana;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 10vh;
+    background-color: #06a816;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    flex: 1; /*completa o restante*/
+    height: 80vh;
+    min-height: 80vh;
+}
+footer{
+    height: 10vh;
+    background-color: #06a816;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
