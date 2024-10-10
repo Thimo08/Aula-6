@@ -1,4 +1,6 @@
-# README
+### Curso Técnico de Desenvolvimento de Sistemas - Senai Itapeva
+# Projeto Blog
+![aa](Proj.%20Blog/static/img_blog.jpg)
 
 ## Propósito
 Este projeto é uma aplicação web desenvolvida em Python utilizando o framework Flask. Seu propósito é criar uma plataforma de blog onde usuários podem se registrar, fazer login, criar postagens e, para administradores, gerenciar usuários e posts. O sistema permite que os usuários interajam através da criação e visualização de postagens, enquanto os administradores têm controle total sobre o gerenciamento de usuários e conteúdos.
